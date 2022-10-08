@@ -1,0 +1,107 @@
+.slider{
+    &.slider-column{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    
+        // .slider-inner, .slider-track{
+        //     width: auto;
+        //     display: flex;
+        //     flex-wrap: wrap;
+        //     margin-right: -1rem;
+        //     margin-left: -1rem
+        // }
+    
+        .slider-track{
+            display: flex;
+            flex-wrap: wrap;
+            // margin-right: -1rem;
+            // margin-left: -1rem;
+            // position: relative;
+            // top: 0;
+            // left: 0;
+            // transition: 400ms ease 0s;
+    
+            .slider-item{
+                display: block;
+                width: 100%;
+                // float: left;
+                // position: relative;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-left: 0px;
+                margin-right: 0px;
+
+                .slider-content{
+                    // transform: scale(0.8);
+                    transition: 0.3s ease;
+                }
+
+                // &.slider-center{
+                //    .slider-content{
+                        // transform: translateY(-7px);
+                        // transform: scale(1);
+                        // border: 2px solid black;
+                //    }
+                // }
+            }
+        }
+    
+    }
+}
+
+// @for $i from 1 to 13 {
+
+//     .slider-column-#{$i} {
+//         .slider-inner {
+//             .slider-item{
+//                 max-width: #{100%/$i};
+//                 flex: 0 0 #{100%/$i};
+//             }
+//         }
+//     }
+    
+//     @include sm{
+//         .slider-column-sm-#{$i} {
+//             .slider-inner {
+//                 .slider-item{
+//                     max-width: #{100%/$i};
+//                     flex: 0 0 #{100%/$i};
+//                 }
+//             }
+//         }
+//     }
+    
+//     @include md{
+//         .slider-column-md-#{$i} {
+//             .slider-inner {
+//                 .slider-item{
+//                     max-width: #{100%/$i};
+//                     flex: 0 0 #{100%/$i};
+//                 }
+//             }
+//         }
+//     }
+    
+//     @include lg{
+//         .slider-column-lg-#{$i} {
+//             .slider-inner {
+//                 .slider-item{
+//                     max-width: #{100%/$i};
+//                     flex: 0 0 #{100%/$i};
+//                 }
+//             }
+//         }
+//     }
+    
+//     @include xl{
+//         .slider-column-xl-#{$i} {
+//             .slider-inner {
+//                 .slider-item{
+//                     max-width: #{100%/$i};
+//                     flex: 0 0 #{100%/$i};
+//                 }
+//             }
+//         }
+//     }
+
+// }
